@@ -2,5 +2,32 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "magmacookies:item/magma_cookie"
-  }
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eating": 1,
+        "eat": 0.35
+      },
+      "model": "magmacookies:item/magma_cookie_eating_0"
+    },
+    {
+      "predicate": {
+        "eating": 1,
+        "eat": 0.70
+      },
+      "model": "magmacookies:item/magma_cookie_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eating": 1,
+        "eat": 0.90
+      },
+      "model": "magmacookies:item/magma_cookie_eating_2"
+    }
+  ]
 }
