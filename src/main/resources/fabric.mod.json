@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.havio.magmacookies.MagmaCookies"
+      "net.havio.hcookbook.HavioCookbook"
     ],
     "client": [
-      "net.havio.magmacookies.MagmaCookiesClient"
+      "net.havio.hcookbook.HavioCookbookClient"
     ]
   },
   "mixins": [
-    "magmacookies.mixins.json"
+    "hcookbook.mixins.json"
   ],
 
   "depends": {
