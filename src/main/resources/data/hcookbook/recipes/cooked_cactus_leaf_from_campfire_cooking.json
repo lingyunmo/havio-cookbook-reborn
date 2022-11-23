@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "hcookbook:cactus_leaf"
+  },
+  "result": "hcookbook:cooked_cactus_leaf"
+}

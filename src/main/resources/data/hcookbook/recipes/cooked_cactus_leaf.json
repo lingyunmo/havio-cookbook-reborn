@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "hcookbook:cactus_leaf"
+  },
+  "result": "hcookbook:cooked_cactus_leaf"
+}
