@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "magmacookies",
+  "id": "hcookbook",
   "version": "${version}",
 
-  "name": "Magma Cookies",
-  "description": "Adds 'Magma Cookies' to Minecraft.",
+  "name": "Havio's Cookbook",
+  "description": "Adds vanilla-like foods and recipes to Minecraft.",
   "authors": [
     "Havio"
   ],
