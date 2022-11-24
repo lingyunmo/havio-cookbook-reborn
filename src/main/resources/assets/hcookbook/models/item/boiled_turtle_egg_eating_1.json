@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hcookbook:item/boiled_turtle_egg_eating_1"
+  }
+}
