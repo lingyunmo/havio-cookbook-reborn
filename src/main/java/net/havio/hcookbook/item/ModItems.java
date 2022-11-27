@@ -29,7 +29,7 @@ public class ModItems {
 
     //MUSHROOM_STEW = register((String)"mushroom_stew", (Item)(new StewItem((new Item.Settings()).maxCount(1).group(ItemGroup.FOOD).food(FoodComponents.MUSHROOM_STEW))));
     public static final Item FUNGUS_STEW = registerItem("fungus_stew", (Item)(new StewItem(new Item.Settings()
-            .maxCount(1).group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(8).build()))));
+            .maxCount(1).group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7F).build()))));
 
     public static final Item MAGMA_COOKIE = registerItem("magma_cookie",
             new Item(new FabricItemSettings().fireproof().food(new FoodComponent.Builder().hunger(2)
