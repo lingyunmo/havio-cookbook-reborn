@@ -5,7 +5,7 @@
       "item": "minecraft:wheat"
     },
     "X": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:sugar"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 8,
-    "item": "hcookbook:magma_cookie"
+    "item": "hcookbook:sugar_cookie"
   }
 }

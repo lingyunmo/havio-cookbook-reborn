@@ -32,8 +32,12 @@ public class ModItems {
             .maxCount(1).group(ItemGroup.FOOD).food(new FoodComponent.Builder().hunger(4).saturationModifier(0.7F).build()))));
 
     public static final Item MAGMA_COOKIE = registerItem("magma_cookie",
-            new Item(new FabricItemSettings().fireproof().food(new FoodComponent.Builder().hunger(2)
-                    .saturationModifier(0.6f).build()).group(ItemGroup.FOOD)));
+            new Item(new FabricItemSettings().fireproof().food(new FoodComponent.Builder().hunger(1)
+                    .saturationModifier(1f).build()).group(ItemGroup.FOOD)));
+
+    public static final Item SUGAR_COOKIE = registerItem("sugar_cookie",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3)
+                    .saturationModifier(0.0f).build()).group(ItemGroup.FOOD)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(HavioCookbook.MOD_ID, name), item);
