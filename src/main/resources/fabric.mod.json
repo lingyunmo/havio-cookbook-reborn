@@ -4,16 +4,16 @@
   "version": "${version}",
 
   "name": "Havio's Cookbook",
-  "description": "Adds vanilla-like foods and recipes to Minecraft.",
+  "description": "Adds food that does its best to maintain the feeling of the vanilla game.",
   "authors": [
     "Havio"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/user/Havio",
+    "sources": ""
   },
 
-  "license": "MIT License",
+  "license": "ARR License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
