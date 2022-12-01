@@ -29,3 +29,7 @@ All foods added by this mod support ["Eating Animation [Fabric]"](https://modrin
 All foods from this mod can be found under the "Foodstuffs" tab in the creative inventory.
 
 All foods, except for the fungus stew, are compostable.
+
+
+## Licensing
+ARR
