@@ -18,6 +18,8 @@ After seeing food mods like ["Vanilla Cookbook"](https://modrinth.com/mod/vanill
 - Magma Cookie : Obtained by mimicking the cookie recipe, swapping out cocoa beans for magma cream.
     - Magma cookies are fireproof.
 
+- Seed Mix : Obtained by placing beetroot, melon, pumpkin, and wheat seeds in a crafting grid.
+
 - Sugar Cookie : Obtained by mimicking the cookie recipe, swapping out cocoa beans for sugar.
 
 ## Additional Information
