@@ -21,6 +21,7 @@ public class HavioCookbook implements ModInitializer {
 		CompostingChanceRegistry.INSTANCE.add(ModItems.CACTUS_LEAF, 0.2f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.COOKED_CACTUS_LEAF, 0.3f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.MAGMA_COOKIE, 0.5f);
+		CompostingChanceRegistry.INSTANCE.add(ModItems.SEED_MIX, 0.4f);
 		CompostingChanceRegistry.INSTANCE.add(ModItems.SUGAR_COOKIE, 0.2f);
 	}
 }
