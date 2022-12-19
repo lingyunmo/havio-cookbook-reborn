@@ -35,6 +35,10 @@ public class ModItems {
             new Item(new FabricItemSettings().fireproof().food(new FoodComponent.Builder().hunger(1)
                     .saturationModifier(1f).build()).group(ItemGroup.FOOD)));
 
+    public static final Item SEED_MIX = registerItem("seed_mix",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().snack().hunger(1)
+                    .saturationModifier(2f).build()).group(ItemGroup.FOOD)));
+
     public static final Item SUGAR_COOKIE = registerItem("sugar_cookie",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3)
                     .saturationModifier(0.0f).build()).group(ItemGroup.FOOD)));

@@ -11,6 +11,9 @@
   "contact": {
     "homepage": "https://modrinth.com/user/Havio"
   },
+  "contributors": [
+    "Walking-stone@GitHub"
+  ],
 
   "license": "ARR License",
   "icon": "assets/modid/icon.png",
@@ -33,8 +36,5 @@
     "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

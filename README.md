@@ -18,6 +18,8 @@ After seeing food mods like ["Vanilla Cookbook"](https://modrinth.com/mod/vanill
 - Magma Cookie : Obtained by mimicking the cookie recipe, swapping out cocoa beans for magma cream.
     - Magma cookies are fireproof.
 
+- Seed Mix : Obtained by placing beetroot, melon, pumpkin, and wheat seeds in a crafting grid.
+
 - Sugar Cookie : Obtained by mimicking the cookie recipe, swapping out cocoa beans for sugar.
 
 ## Additional Information
@@ -30,6 +32,8 @@ All foods from this mod can be found under the "Foodstuffs" tab in the creative 
 
 All foods, except for the fungus stew, are compostable.
 
+## Credits
+(v0.0.2-1.19.2) Walking-stone@GitHub for their 'zh_cn' and 'zh_tw' translations.
 
 ## Licensing
 ARR

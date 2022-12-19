@@ -1,0 +1,33 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hcookbook:item/seed_mix"
+  },
+
+  "overrides": [
+
+    {
+      "predicate": {
+        "eating": 1,
+        "eat": 0.2
+      },
+      "model": "hcookbook:item/seed_mix_eating_0"
+    },
+    {
+      "predicate": {
+        "eating": 1,
+        "eat": 0.30
+      },
+      "model": "hcookbook:item/seed_mix_eating_1"
+    },
+
+    {
+      "predicate": {
+
+        "eating": 1,
+        "eat": 0.35
+      },
+      "model": "hcookbook:item/seed_mix_eating_2"
+    }
+  ]
+}
