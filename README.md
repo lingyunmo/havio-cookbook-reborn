@@ -33,7 +33,7 @@ All foods from this mod can be found under the "Foodstuffs" tab in the creative 
 All foods, except for the fungus stew, are compostable.
 
 ## Credits
-(v0.0.1-1.19.2) Walking-stone@GitHub for their 'zh_cn' and 'zh_tw' translations.
+(v0.0.2-1.19.2) Walking-stone@GitHub for their 'zh_cn' and 'zh_tw' translations.
 
 ## Licensing
 ARR
