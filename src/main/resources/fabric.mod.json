@@ -27,9 +27,6 @@
       "net.havio.hcookbook.HavioCookbookClient"
     ]
   },
-  "mixins": [
-    "hcookbook.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.9",
