@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hcookbookreborn:item/cooked_cactus_leaf_eating_1"
+  }
+}

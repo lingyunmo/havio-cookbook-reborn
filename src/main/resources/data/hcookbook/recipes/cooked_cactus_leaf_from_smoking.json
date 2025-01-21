@@ -3,7 +3,7 @@
   "cookingtime": 100,
   "experience": 0.3,
   "ingredient": {
-    "item": "hcookbook:cactus_leaf"
+    "item": "hcookbookreborn:cactus_leaf"
   },
-  "result": "hcookbook:cooked_cactus_leaf"
+  "result": "hcookbookreborn:cooked_cactus_leaf"
 }
