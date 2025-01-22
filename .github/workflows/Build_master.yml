@@ -38,7 +38,7 @@ jobs:
 
       # Only upload artifacts from Java 17 builds on Linux
       - name: capture build artifacts (捕获构建产物)
-        if: ${{ runner.os == 'Linux' && matrix.java == '17' }}
+        if: ${{ runner.os == 'Linux' && matrix.java == '23' }}
         uses: actions/upload-artifact@v3
         with:
           name: Artifacts
