@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.0-SNAPSHOT'
+	id 'fabric-loom' version '1.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -7,7 +7,8 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
-version = project.mod_version
+mod_version = project.mod_version
+minecraft_version = project.minecraft_version
 group = project.maven_group
 
 repositories {
@@ -54,8 +55,10 @@ java {
 }
 
 jar {
+	archiveFileName = "${archivesBaseName}-${minecraft_version}-fabric-${mod_version}.jar"
+
 	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}"}
+		rename { "${it}_${archivesBaseName}"}
 	}
 }
 
