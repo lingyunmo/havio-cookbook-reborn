@@ -53,7 +53,7 @@ jobs:
           modrinth-id: HUMdzye6
           modrinth-token: "${{env.MODRINTH_TOKEN}}"
 
-          github-tag: "v${{env.VERSION}}"
+          github-tag: "v${{env.VERSION}}-${{ env.MINECRAFT_VERSION }}"
           github-token: "${{env.GITHUB_TOKEN}}"
 
           name: "havios-cookbook-reborn-${{ env.MINECRAFT_VERSION }}-fabric-${{ env.VERSION }}"
