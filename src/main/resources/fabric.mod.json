@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "hcookbookreborn",
   "version": "${version}",
-
   "name": "Havio's Cookbook Reborn",
   "description": "Adds food that does its best to maintain the feeling of the vanilla game.",
   "authors": [
@@ -15,10 +14,8 @@
     "Havio1@GitHub",
     "Walking-stone@GitHub"
   ],
-
   "license": "ARR License",
   "icon": "assets/hcookbookreborn/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -28,9 +25,8 @@
       "net.lingyunmo.hcookbookreborn.HavioCookbookRebornClient"
     ]
   },
-
   "depends": {
-    "fabricloader": ">=0.14.19",
+    "fabricloader": ">=0.14.11",
     "fabric-api": "*",
     "minecraft": "~1.19.4",
     "java": ">=17"
